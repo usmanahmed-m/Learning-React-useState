@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import Room from "./components/Room";
 
 ReactDOM.render(
   <Fragment>
-    <App />
+    <Room />
   </Fragment>,
   document.getElementById("root")
 );
